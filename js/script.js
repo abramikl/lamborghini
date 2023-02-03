@@ -42,9 +42,8 @@ elemArrow.addEventListener('click', () => window.scrollTo({
 
 // maps
 ymaps.ready(init);
-    function init(){
-        var myMap = new ymaps.Map("map", {
-            center: [57.86605800220326,39.510301590144856],
-            zoom: 17
-        });
-    }
+function init(){
+    var myMap = new ymaps.Map("map", {
+        center: [55.755407295068736,37.61768706654359],zoom: 12
+    });
+}
